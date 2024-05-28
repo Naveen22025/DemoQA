@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.demoqa.ElementTest">
+      <class name="Test.demoqa.Checkbox">
         <methods>
           <include name="OpenBrowser"/>
-          <include name="TestElem"/>
           <include name="CloseBrower"/>
+          <include name="Checkbox"/>
           <include name="LogoutApp"/>
           <include name="LoginApp"/>
         </methods>
-      </class> <!-- Test.demoqa.ElementTest -->
+      </class> <!-- Test.demoqa.Checkbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
